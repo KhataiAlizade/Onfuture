@@ -1,0 +1,765 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+.Aboutimage {
+    width: 110%;
+    height: 24rem;
+} 
+.Haqqimizda {
+    margin-top: 1rem;
+    position: relative;
+    margin-left: 15em;
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+}
+#AboutUs p {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #52EAC3;
+}
+.LeftAbout {
+    width: 32rem;
+}
+
+.RightAbout h1 {
+    font-size: 32px;
+    color: #007BFF;
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-top: 10px;
+}
+.RightAbout h1:not(:first-child){
+    margin-top: 32px;
+}
+.RightAbout span {
+    color: #959191;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.OnfutureTv {
+    background-color: #253445;
+    height: 29rem;
+    margin-top: 50px;
+}
+.OnfutureTv h1 {
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.OnfutureVideos {
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Video_item {
+    position: relative;
+    width: 100rem;
+    display: flex;
+    flex-direction: column;
+
+}
+.Video_item a img {
+width: 90%;
+height: 120%;
+}
+.Video_item p {
+    color: #FFFFFF;
+   font-weight: bold;
+   font-size: 24px;
+   margin-left: 15px;
+   margin-top: 55px;
+}
+.Playicon {
+    font-size: 54px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    padding: 10px 13px 10px 20px;
+    background-color: #007BFF;
+    transition: 500ms;
+}
+.Playicon:hover {
+    font-size: 60px;
+    position: absolute;
+    left: 45%;
+    color: #FFFFFF;
+    top:45%;
+    border-radius: 100%;
+    padding: 15px 19px 15px 26px;
+    background-color: #d31e45;
+}
+
+.Services h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #52EAC3;
+    font-weight: bold;
+}
+.MainServices {
+    margin-left: 155px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.MainServices div span {
+    font-size: 31px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.MainServices div  {
+    flex: 0  calc(42% - 10px); 
+    margin-right: 70px;
+    background-color: #ccdeff;
+    border: 1px solid #ccdeff;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    margin-bottom: 20px;
+
+}
+.MainServices div span::before {
+    margin-right: 7px;
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    color: green;
+}
+.VideoServices {
+    margin-top: 30px;
+}
+.video-wrapper {
+    padding-top: 7px;
+    width:76.5%;
+    margin-left: 11.2%;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
+    position: relative;
+}
+.Video_items {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.Video_items1 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 4%;
+    margin-left: 11%;
+}
+.Video_items1 ul li {
+    list-style-type: disc;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 8px;
+    color: #000000;
+    background-color: #8fe8f0;
+    border-radius: 10px;
+
+}
+.video-wrapper video {
+    width: 55%;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+.TitleVideo {
+    text-align: center;
+    display: flex;
+    margin-left: 26.5%;
+}
+.TitleVideo h3 {
+    color: #02dda6;
+}
+.HandDown::before {
+    content: "\f0a7";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    color: #253445;
+    font-size: 33px;
+    position: relative;
+    left: 5px;
+    bottom: 3px;
+}
+.EducationServices {
+    margin-top: 10px;
+}
+.Education_container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 7%;
+    margin-left: 11%;
+}
+.Education_container h3 {
+    color: #0071e9;
+    font-weight: bolder;
+}
+.Education_flItem {
+    width: 50%;
+}
+.University_container {
+    margin-left: -10px;
+    margin-top: 15px;
+    width: 90%;
+    color: #736666;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.University_item::before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    color: #02dda6;
+    margin-right: 5px;
+}
+
+@media (max-width: 1360px) {
+    .Haqqimizda {
+        margin-left: 7rem;
+        gap: 4rem;
+    }
+    #AboutUs p {
+        font-size: 49px;
+    }
+    .LeftAbout {
+        width: 30rem;
+    }
+    
+    .RightAbout h1 {
+        font-size: 30px;
+    }
+    .RightAbout span {
+        font-size: 16px;
+    }
+   
+    .OnfutureTv {
+        height: 25.5rem;
+        margin-top: 40px;
+    }
+    .OnfutureVideos {
+        margin-left: 40px;
+    }
+    .Video_item p {
+        margin-top: 45px;
+       font-size: 22px;  
+    }
+    .Playicon {
+        font-size: 45px;
+        position: absolute;
+        left: 45%;
+        top: 38%;
+        border-radius: 100%;
+        padding: 10px 13px 10px 20px;
+        transform: translate(-50%, -50%);
+        background-color: #007BFF;
+        transition: 500ms;
+    }
+    .Playicon:hover {
+        font-size: 50px;
+        position: absolute;
+        left: 45%;
+        top: 38%;
+        padding: 15px 19px 15px 26px;
+    }
+
+    .MainServices {
+        margin-left: 6%;
+    }
+    .MainServices div span {
+        font-size: 29px;
+    }
+    .MainServices div  {
+        flex: 0  calc(44% - 1%); 
+        margin-right: 6%;
+        padding: 15px 2px 15px 2px;
+ 
+    }
+    .VideoServices {
+        margin-top: 30px;
+    }
+    .video-wrapper {
+        padding-top: 7px;
+        width:85%;
+        margin-left: 6%;
+        border-radius: 10%;
+        box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
+        position: relative;   
+        padding-bottom: 30px; 
+    }
+    .Video_items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Video_items1 ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4%;
+        gap: 15px;
+        margin-left: 10%;
+        width: 100%;
+    }
+    .Video_items1 ul li {
+        font-size: 17px;
+        padding: 2%;
+        font-weight: bold;
+        width: 105%;
+        background-color: #8fe8f0;
+        border-radius: 10px;
+    
+    }
+    .video-wrapper video {
+        width: 48%;
+        margin-left: 2%;
+        border-radius: 10px;
+    }
+   
+   
+    .HandDown::before {
+        font-size: 32px;
+    }
+    .EducationServices {
+        margin-top: 10px;
+    }
+    .Education_container {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 6%;
+        margin-left: 7%;
+    }
+    .Education_container h3 {
+        color: #0071e9;
+        font-weight: bolder;
+        font-size: 24px;
+    }
+    .Education_flItem {
+        width: 50%;
+    }
+    .University_container {
+        margin-left: -9px;
+        margin-top: 15px;
+        width: 90%;
+        font-size: 15px;
+        color: #736666;
+        text-align: justify;
+        font-weight: bold;
+    }
+    
+    .University_item::before {
+        content: "\f00c";
+        font-family: "Font Awesome 5 Free";
+        font-weight: bold;
+        color: #02dda6;
+        margin-right: 5px;
+    }
+    
+  }
+
+
+   
+
+  @media (max-width: 1000px) {
+   
+    .Haqqimizda {
+        margin-left: 2rem;
+        gap: 4rem;
+    }
+    #AboutUs p {
+        font-size: 46px;
+    }
+    .LeftAbout {
+        width: 30rem;
+    }
+   
+    .RightAbout h1:not(:first-child){
+        margin-top: 30px;
+    }
+    .RightAbout span {
+        color: #959191;
+        font-size: 17px;
+    }
+    
+    .RightAbout h1 {
+        font-size: 25px;
+        margin-bottom: 5px;
+        margin-top: 0px;
+    }
+    .RightAbout span {
+        font-size: 14.5px;
+    }
+   
+    .OnfutureTv {
+        height: 22rem;
+    }
+    .Video_item p {
+        margin-top: 40px;
+        margin-left: 5px;
+       font-size: 19px;  
+    }
+    .Playicon {
+        font-size: 32px;
+        position: absolute;
+        left: 45%;
+        top: 30%;
+        padding: 8px 10.5px 8px 14px;
+        transition: 500ms;
+    }
+    .Playicon:hover {
+        font-size: 38px;
+        position: absolute;
+        left: 45%;
+        color: #FFFFFF;
+        top: 30%;
+        padding: 9px 13px 10px 16px;
+    }
+    .Services h1 {
+        font-size: 34px;
+    }
+    .MainServices {
+        margin-left: 7%;
+    }
+    .MainServices div span {
+        font-size: 22px;
+        color: #000000;
+        font-weight: bold;
+    }
+    .MainServices div  {
+        flex: 0  calc(44% - 1%); 
+        margin-right: 7%;
+        background-color: #ccdeff;
+        border: 1px solid #ccdeff;
+        padding: 15px 2px 15px 2px;
+ 
+    }
+    .VideoServices {
+        margin-top: 30px;
+    }
+    .video-wrapper {
+        margin: 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0,0.0);
+    }
+    .Video_items {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .Video_items1 ul {
+        margin-top: 0%;
+        position: relative;
+        top: 30px;
+        gap: 10px;
+        margin-left: 11%;
+        width: 100%;
+    }
+    .Video_items1 ul li {
+        list-style-type: none;
+        font-size: 15px;
+        padding: 4px;
+        width:100%;
+        border-radius: 8px;
+    
+    }
+    .Video_items video {
+        width: 55%;
+        height: 100%;
+        margin-left: 5%;
+        position: relative;
+        top: 30px;
+        border-radius: 10px;
+    }
+    .TitleVideo {
+        margin-left: 19%;
+    }
+  
+    .HandDown::before {
+        font-size: 30px;
+    }
+   
+    .HandDown::before {
+        font-size: 27px;
+        color: #18322c;
+    }
+    .EducationServices {
+        margin-left: 1%;
+    }
+    .Education_container {
+        gap: 5%;
+    }
+    
+    .Education_container h3 {
+        font-size: 21px;
+    }
+    .University_container {
+        margin-left: -9px;
+        text-align: left;
+        margin-top: 12px;
+        font-size: 14px;
+        width: 100%;
+    }
+    
+  }
+   @media (max-width: 790px) {
+
+    .VideoServices {
+        margin-top: 30px;
+    }
+    .video-wrapper {
+        padding-top: 9px;
+        width:76.5%;
+        margin-left: 9%;
+        box-shadow: 0 0 10px rgba(0, 0, 0,0.0);
+    }
+    .Video_items {
+        margin-top: -15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .Video_items1 ul {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+    .Video_items1 ul li {
+        list-style-type: disc;
+        font-size: 19px;
+        padding: 10px;
+    }
+    .video-wrapper video {
+        width: 100%;
+        margin-left: 2%;
+        border-radius: 10px;
+    }
+    .TitleVideo {
+        margin-left: 17%;
+    }
+   }
+  @media (max-width: 560px) {
+    .Aboutimage {
+        width: 98%;
+        height: 24rem;
+    }
+    .Haqqimizda {
+        margin-left: 0.4rem;
+        display: block;
+        gap: 2rem;
+    }
+    #AboutUs p {
+        margin-top: 0.8rem;
+        font-size: 40px;
+    }
+    .LeftAbout {
+        width: 100%;
+        margin-bottom: 20px;
+    } 
+    .RightAbout h1 {
+        font-size: 25px;
+    }
+    .RightAbout span {
+        font-size: 14.5px;
+    }
+    .OnfutureTv {
+        height: 15rem;
+    }
+    .OnfutureTv h1 {
+        padding-top: 10px;
+        font-size: 30px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .OnfutureVideos {
+        margin-top: 15px;
+        margin-left: 12px;
+    }
+    .Video_item p {
+        margin-top: 25px;
+        margin-left: 1px;
+       font-size: 12.5px; 
+    }
+    .Playicon {
+        font-size: 25px;
+        position: absolute;
+        left: 45%;
+        top: 25%;
+        padding: 7px 9px 8px 12px;
+        transition: 500ms;
+    } 
+    .Playicon:hover {
+        font-size: 30px;
+        position: absolute;
+        left: 45%;
+        color: #FFFFFF;
+        top: 25%;
+        padding: 8px 10px 9px 13px;
+    }
+    .Services h1 {
+        font-size: 34px;
+    }
+    .MainServices {
+        margin-left: 10%;
+    }
+    .MainServices div span {
+        font-size: 20px;
+    }
+    .MainServices div  {
+        flex: 0  calc(100% - 1%); 
+        margin-right: 10%;
+    }
+    
+    .VideoServices {
+        margin-top: 30px;
+    }
+    .video-wrapper {
+        margin-left: 7%;
+        box-shadow: 0 0 10px rgba(0, 0, 0,0.0);
+    }
+    .Video_items {
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .Video_items1 ul {
+        margin-top: 0%;
+        position: relative;
+        top: 30px;
+        gap: 10px;
+        margin-left: 6%;
+        width: 100%;
+    }
+    .Video_items1 ul li {
+        list-style-type: disc;
+        font-size: 15px;
+        padding: 4px;
+        width:100%;
+        border-radius: 8px;
+    
+    }
+    .Video_items video {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        left: 3%;
+        top: 0px;
+        border-radius: 10px;
+    }
+    .TitleVideo {
+        margin-left: 10%;
+        align-items: center;
+    }
+    .TitleVideo h3 {
+        margin-left: -5%;
+        font-size: 20px;
+    }
+    .HandDown::before {
+        font-size: 23px;
+        top: -2px;
+    }
+    .EducationServices {
+        width: 90%;
+        margin-right: 0;
+        margin-top: 0px;
+        margin-left: 2%;
+    }
+    .Education_container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        }
+    .Education_container h3 {
+        color: #0071e9;
+        font-weight: bold;
+        margin-left: 20px;
+        width: 250px;
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .University_container {
+        margin-left: -20px;
+        margin-top: 15px;
+        color: #736666;
+        text-align: justify;
+        width: 19rem;
+    }
+    .flitem1 {
+        margin-left: 30px;
+    }
+    .cont1 {
+        margin-left: -5px;
+        margin-top: 15px;
+        color: #736666;
+        text-align: justify;
+        width: 19rem;
+    }
+    
+    .University_item::before {
+        content: "\f00c";
+        font-family: "Font Awesome 5 Free";
+        font-weight: bold;
+        color: #02dda6;
+        margin-right: 5px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .Aboutimage {
+        width: 128%;
+        height: 24rem;
+    }
+  
+    .OnfutureTv {
+        width: 129%;
+        height: 15rem;
+    }
+    .OnfutureTv h1 {
+        font-size: 26px;
+    }
+
+    .Playicon {
+        font-size: 20px;
+    }
+    .Playicon:hover {
+        font-size: 25px;
+    }
+   
+    .MainServices {
+        margin-left: 5%;
+    }
+    .MainServices div span {
+        font-size: 20px;
+    }
+    .MainServices div  {
+        flex: 0 0 calc(126% - 0%); 
+        margin-right: -20%;
+    }
+    
+    .VideoServices {
+        margin-top: 20px;
+    }
+    .video-wrapper {
+        margin: 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0,0.0);
+    }
+    .Video_items1 ul {
+        margin-top: 0%;
+        position: relative;
+        top: 30px;
+        gap: 10px;
+        margin-left: 14%;
+        width: 120%;
+    }
+    .Video_items video {
+        width: 128%;
+        position: relative;
+        left: 4%;
+    }
+
+   
+  }
+  

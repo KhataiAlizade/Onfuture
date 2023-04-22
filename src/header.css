@@ -1,0 +1,539 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
+.icon-facebook:before {
+    content: "\f39e";
+    font-family: "Font Awesome 5 Brands"; 
+    color: #6560E0;
+    transition: 500ms all;
+}
+.ic {
+  font-size: 17px
+}
+.icon-facebook:hover::before {
+    color: #19166f;
+    font-weight: bold;
+  }
+.icon-instagram:before {
+    content: "\f16d";
+    font-family: "Font Awesome 5 Brands"; 
+    color: #6560E0;
+    transition: 500ms all;
+}
+.icon-instagram:hover::before {
+    color: #19166f;
+    font-weight: bold;
+
+  }
+.icon-linkedin:before {
+    content: "\f0e1";
+    font-family: "Font Awesome 5 Brands"; 
+    color: #6560E0;
+    transition: 500ms all;
+}
+.icon-linkedin:hover::before {
+    color: #19166f;
+    font-weight: bold;
+  }
+.firstpart {
+    background-color: #F8F9FA;    
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 33%;
+}
+.container {
+  width: max-content;
+  margin-top: 20px;
+  margin-left: 14%;
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+
+.icon-phone::before {
+    content: "\f2b9";
+    font-family: "Font Awesome 5 Free" !important;
+    color: #6560E0;
+    padding-right: 6px;
+
+  }
+  .contactitem{
+    color: #6560E0;
+    transition: 500ms all;
+  }
+  .contactitem:hover{
+    color: #19166f;
+  }
+  .contactitem:active{
+    color: #0d0b48;
+    font-weight: 600;
+
+  }
+.icon-gmail::before{
+    content : "\f0e0";
+    font-family: "Font Awesome 5 Free"; 
+    color: #6560E0;
+    padding-right: 6px;
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 25px;
+}
+.Azdiv {
+  width: 4.4%;
+  margin-left: 2%;
+  position: relative;
+  bottom: 1.2px;
+  height: 20px;
+}
+.Azdiv button {
+outline: none;
+border: 1px solid #ffffff;
+height: 0px;
+}
+.Endiv{
+  width: 4.1%;
+  margin-left: -1.8%;
+  height: 20px;
+}
+.Endiv button {
+  outline: none;
+  border: 0px solid #ffffff;
+height: 0px;
+
+  }
+.Azeflag {
+  width: 100%;
+}
+.Engflag  {
+  width: 100%;
+}
+.secondpart {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+   z-index: 99999;
+   height: 90px;
+   background-color: #FFFFFF;
+  }
+.Onfutureimg{
+  margin-left: 13.3%;
+  width: 30%;
+  margin-top: 10px;
+}
+.Onfuturelogo {
+  width: 9.5rem;
+  height: 80%;
+}
+.container3 {
+  margin-top: 24px;
+}
+.container3 .Containeritem3 {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.Containeritem3 li {
+  display: block;
+  font-size: 18px;
+  color: #000000;
+}
+.Containeritem3 li.active {
+ color: #52EAC3;
+}
+.Containeritem3 li span {
+  transition: 400ms;
+}
+.Containeritem3 li span:hover {
+  color: #52EAC3;
+}
+.Containeritem3 li span:active {
+  color: #52EAC3;
+}
+
+.menu-icon::before {
+  content: "\f0c9";
+  font-family: "Font Awesome 5 Free";
+  display: none;
+  font-weight: bold;
+  position: absolute;
+}
+
+.thirdpart {
+  position: relative;
+}
+
+.thirdpart::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+}
+
+.thirdpart {
+  background-image:  url('image/OnfutureKollektiv.jpg' ) ;
+  background-repeat: no-repeat;
+  background-size: 100% 60rem;
+  background-color: #ffffff;
+  width:100%;
+  height: 45rem;
+  z-index: 1;
+}
+
+.OnfutureSlogan {
+  position: absolute;
+  top: 310px;
+  left: 200px;
+  font-size: 50px;
+  color: #FFFFFF;
+  font-weight: bolder;
+  z-index: 10;
+}
+
+.OnfutureSlogan2 {
+  position: absolute;
+  top: 375px;
+  left: 208px;
+  font-size: 20px;
+  color: #FFFFFF;
+  z-index: 10;
+}
+.OnfutureContact button {
+  position: absolute;
+  top: 460px;
+  left: 210px;
+  font-size: 19px;
+  padding: 13px 20px 13px 20px;
+  background-color: #1e7861;
+  color: #ffffff;
+  border: 1px solid #1e7861;
+  border-radius: 30px;
+  z-index: 200;
+  cursor: pointer;
+  transition: 400ms;
+}
+.OnfutureContact button:hover {
+  background-color: #ffffff;
+  color: #19166f;
+}
+
+@media (max-width: 1360px) {
+  .firstpart {
+    gap: 25%;
+  }
+  .container {
+    top: 10px;
+    left: 50px;
+  }
+ 
+    .Onfutureimg{
+      width: 30%;
+    }
+    .Onfuturelogo {
+      width: 9.5rem;
+      height: 80%;
+    }
+    .container3 {
+      position: absolute;
+      right: 55px;
+    }
+    .thirdpart {
+      background-size: 100% 100%;
+    }
+    .OnfutureSlogan {
+      top: 275px;
+      left: 130px;
+      font-size: 44px;
+    }
+    .OnfutureSlogan2 {
+      top: 334px;
+      left: 138px;
+      font-size:19.5px;
+    }
+    .OnfutureContact button {
+      top: 420px;
+      left: 137px;
+      padding: 12px 19px 12px 19px;
+    }
+    
+   
+  
+}
+
+@media (max-width: 1000px) {
+ 
+  .firstpart{
+    gap: 40%;
+  }
+  .Azdiv {
+    width: 2rem;
+    margin-left: -4%;
+    margin-top: -2px;
+  }
+  .Azdiv button {
+  outline: none;
+  border: 1px solid #ffffff;
+  height: 0px;
+  }
+  .Endiv{
+    width: 2rem;
+    margin-left: -10%;
+    margin-top: -1.4px;
+
+  }
+  .Azeflag {
+    width: 70%;
+  }
+  .Engflag  {
+    width: 70%;
+  }
+    .container {
+      top: 10px;
+    }
+    .container2 {
+        top: 10px;
+        right: 90px;
+      }
+     
+      .Onfutureimg{
+        width: 8rem;
+      }
+      .Onfuturelogo {
+        width: 100%;
+        height: 75%;
+      }
+      .Contactspan {
+        display: none;
+      }
+      
+     
+      .Containeritem3 li {
+        display: none;
+      }
+    
+      
+      .Containermenu {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        background-color: #FFFFFF;
+        box-shadow: 10px 5px 10px 5px #d7d7d7;
+        height: 80rem;
+        font-size: 20px;
+        padding-right: 120px;
+        padding-left: 30px;
+        padding-top: 100px;
+        margin-right: -57px;
+        margin-top: -95px;
+        z-index: 999999;
+      }
+      .X-icon::before {
+        content : "\f00d";
+        font-family: "Font Awesome 5 Free";
+        font-weight: bolder;
+        position: absolute;
+        font-size: 20px;
+        right: -10px;
+        top: -10px;
+        z-index: 99999;
+      }
+     
+      .Containermenu li span:hover {
+       color: #52EAC3;
+      }
+      .Containermenu li span:active {
+        color: #52EAC3;
+       }
+      .menu-icon::before {
+        display: block;
+        right: 40px;
+        top: 0px;
+        z-index: -2;
+        font-size: 25px;
+      }
+      .thirdpart {
+        background-image: url('./image/OnfutureKollektiv9.jpg');
+        background-size: 100% 100%;
+      }
+      .OnfutureSlogan {
+        top: 340Px;
+        left: 100px;
+        font-size: 38px;
+      }
+      
+      .OnfutureSlogan2 {
+        top: 400px;
+        left: 108px;
+        font-size:18.5px;
+      }
+      .OnfutureContact button {
+        top: 480px;
+        left: 110px;
+        padding: 12px 19px 12px 19px;
+      }
+     
+  }
+  @keyframes slide-in {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(60%);
+      opacity: 1;
+    }
+  }
+  @media ( max-width: 600px) {
+  
+    
+    .ic {
+      font-size: 15px;
+    }
+    .container {
+      margin-left: 2%;
+    }
+    .container2 {
+        top: 5px;
+        right: 10px;
+      }
+  
+      .secondpart {
+        height: 80px;
+      }
+      .firstpart {
+        width: 100%;
+        gap:10%;
+      } 
+      .Onfutureimg{
+        width: 7.5rem;
+        margin-left: 2%;
+      }
+      .Onfuturelogo {
+        width: 100%;
+        height: 70%;
+      }
+      .Containeritem3 li {
+        display: none;
+      }
+      .Containermenu {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        background-color: #FFFFFF;
+        box-shadow: 10px 5px 10px 5px #d7d7d7;
+        height: 80rem;
+        font-size: 20px;
+        padding-left: 30px;
+        padding-top: 100px;
+        margin-right: -67px;
+        z-index: 999999;
+      }
+    
+      .menu-icon::before {
+        display: block;
+        right: -35px;
+        top: -5px;
+      } 
+      .X-icon::before {
+        right: -15px;
+        top: -10px;
+      }
+      .thirdpart {
+        background-image: url('./image/OnfutureKollektiv6.jpg');
+        background-size: 48rem 100%;
+        width: 100%;
+
+      }
+     
+      .OnfutureSlogan {
+        left: 30px;
+        top: 285px;
+        font-size: 33px;
+      }
+      .OnfutureSlogan2 {
+        left: 37px;
+        top: 333px;
+        font-size:16px;
+      }
+      .OnfutureContact button {
+        top: 400px;
+        left: 40px;
+        font-size: 18px;
+        border-radius: 30px;
+        padding: 10px 16px 12px 16px;
+      }
+
+  }
+  @media ( max-width: 360px) {
+  
+    .ic {
+      font-size: 15px;
+    }
+    .container {
+      top: 5px;
+      left: 0px;
+    }
+    .container2 {
+        top: 5px;
+        right: 10px;
+      }
+  
+      .secondpart {
+        width: 100%;
+        height: 80px;
+      }
+      .firstpart {
+        width: 128%;
+      } 
+      .Onfutureimg{
+        width: 6rem;
+        top: 20px;
+        left: 15px;
+      }
+      .Onfuturelogo {
+        width: 100%;
+        height: 30%;
+      }
+      .Containeritem3 li {
+        display: none;
+      }
+      .Containermenu {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        background-color: #FFFFFF;
+        box-shadow: 10px 5px 10px 5px #d7d7d7;
+        height: 80rem;
+        font-size: 20px;
+        padding-left: 30px;
+        padding-top: 100px;
+        margin-right: -155px;
+        z-index: 999999;
+      }
+    
+      .menu-icon::before {
+        display: block;
+        right: -40px;
+        top: -5px;
+      } 
+      .X-icon::before {
+        right: -15px;
+        top: -10px;
+      }
+      .thirdpart {
+        background-image: url('./image/OnfutureKollektiv6.jpg');
+        background-size: 48rem 100%;
+        width: 128%;
+
+      }
+     
+
+  }
+  
